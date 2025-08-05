@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -20,20 +20,20 @@
 </head>
 
 <body>
-  <main class="max-w-screen max-h-screen">
+  <main class="max-w-screen min-h-screen">
     <div class="min-h-[100vh] max-w-[100vw] h-full m-auto flex flex-col justify-center items-center bg-[hsl(330,100%,98%)] font-[Outfit]">
       <!--Main Card-->
-      <div class="card w-[45em] mt-[5em] bg-white border-2 flex flex-col justify-center items-center p-[2em] rounded-2xl">
-        <img src="assets/images/image-omelette.jpeg" class="rounded-xl mb-[1em]">
+      <div class=" max-sm:w-[80%] max-sm:p-[1em] max-sm:text-center card w-[45em] mt-[5em] bg-white border-2 flex flex-col justify-center items-center p-[2em] rounded-2xl">
+        <img src="assets/images/image-omelette.jpeg" class="max-sm:w-[25em] rounded-xl mb-[1em]" alt="picture-omelette">
         <!--Title-->
         <div class="space-y-[0.5em] mb-[1em]">
           <h1 class="title font-[400] text-[2.5em]">Simple Omelette Recipe</h1>
-          <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+          <p class="text-[hsl(30,10%,34%)]"> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
                to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
         </div>
         <!--Inside Card Rose-->
           <!--Preparation-->
-        <div class="w-[42em] mb-[2em] p-[2em] bg-[hsl(330,100%,98%)] rounded-xl max-w-[screen] space-y-[0.5em] text-[hsl(30,10%,34%)]">
+        <div class="max-sm:w-[21em] w-[42em] mb-[2em] p-[2em] bg-[hsl(330,100%,98%)] rounded-xl space-y-[0.5em] text-[hsl(30,10%,34%)]">
           <h3 class="text-[hsl(332,51%,32%)] text-[18px]"> <b>Preparation time</b></h3> 
             <li> <b>Total: </b> Approximately 10 minutes </li>
             <li>  <b> Preparation: </b> 5 minutes</li>
@@ -41,7 +41,7 @@
         </div>
 
         <!--Ingredients--> 
-        <div class="w-[40em] mb-[4em] text-left space-y-[0.7em] text-[hsl(30,10%,34%)]">
+        <div class="max-sm:w-[21em] w-[40em] mb-[4em] space-y-[0.7em] text-[hsl(30,10%,34%)]">
           <h1 class="title text-[2em] text-[hsl(14,45%,36%)]">Ingredients</h1>
           <li>2-3 large eggs </li>
           <li>Salt, to taste </li>
@@ -50,10 +50,10 @@
           <li> Optional fillings: cheese, diced vegetables, cooked meats, herbs </li>
         </div>
 
-        <hr class="w-[40em] border-[hsl(30,10%,34%)]">
+        <hr class=" max-sm:w-[21em] w-[40em] border-[hsl(30,10%,34%)]">
 
         <!--Instructions--> 
-        <div class="w-[40em] mt-[2em] mb-[4em] text-left space-y-[0.7em] text-[hsl(30,10%,34%)]">
+        <div class="max-sm:w-[21em] w-[40em] mt-[2em] mb-[4em] text-left space-y-[0.7em] text-[hsl(30,10%,34%)]">
           <h1 class="title text-[2em] text-[hsl(14,45%,36%)]">Instructions</h1>
           <ol class="list-decimal space-y-[1em] ml-[1em]">
           
@@ -75,50 +75,48 @@
           </ol>
         </div>
         
-         <hr class="w-[40em] border-[hsl(30,10%,34%)]">
+         <hr class="max-sm:w-[21em] w-[40em] border-[hsl(30,10%,34%)]">
         
         <!--Nutrition--> 
-          <div class="mt-[2em] mb-[1em] w-full text-left space-y-[0.5em] text-[hsl(30,10%,34%)]">
+          <div class=" max-sm:w-[21em] mt-[2em] mb-[1em] w-full text-left space-y-[0.5em] text-[hsl(30,10%,34%)]">
             <h1 class="title text-[2em] text-[hsl(14,45%,36%)]">Nutrition</h1>
             <p> The table below shows nutritional values per serving without the additional fillings.</p>
               <!--Table-->
-              <div class="ml-[2em] mt-[1em] space-x-[15em]">
+              <div class="max-sm:space-x-[10em] max-sm:w-[21em] ml-[2em] mt-[1em] space-x-[15em]">
                 <p class="inline">Calories</p>
-                <p class=" inline"> 277 kcal</p>
+                <p class="inline text-[hsl(14,45%,36%)] font-[600]"> 277 kcal</p>
               </div>
-              <hr class="w-[40em] border-[hsl(30,10%,34%)]">
-              <div class="ml-[2em] mt-[1em] space-x-[16em]">
+              
+              <hr class=" max-sm:w-[21em] w-[40em] border-[hsl(30,10%,34%)]">
+              
+              <div class=" max-sm:space-x-[11em] max-sm:w-[21em] ml-[2em] mt-[1em] space-x-[16em]">
                 <p class="inline">Carbs</p>
-                <p class=" inline"> 0g</p>
+                <p class=" inline text-[hsl(14,45%,36%)] font-[600]"> 0g</p>
               </div>
-              <hr class="w-[40em] border-[hsl(30,10%,34%)]">
-              <div class="ml-[2em] mt-[1em] space-x-[15.5em]">
+              
+              <hr class=" max-sm:w-[21em] w-[40em] border-[hsl(30,10%,34%)]">
+              
+              <div class="max-sm:space-x-[10.5em] max-sm:w-[21em] ml-[2em] mt-[1em] space-x-[15.5em]">
                 <p class="inline">Protein</p>
-                <p class=" inline"> 20g</p>
+                <p class=" inline text-[hsl(14,45%,36%)] font-[600]"> 20g</p>
               </div>
-              <hr class="w-[40em] border-[hsl(30,10%,34%)]">
-              <div class="ml-[2em] mt-[1em] space-x-[17em]">
+              
+              <hr class=" max-sm:w-[21em] w-[40em] border-[hsl(30,10%,34%)]">
+              
+              <div class="max-sm:space-x-[12em] max-sm:w-[21em] ml-[2em] mt-[1em] space-x-[17em]">
                 <p class="inline">Fat</p>
-                <p class=" inline"> 22g</p>
+                <p class=" inline text-[hsl(14,45%,36%)] font-[600]"> 22g</p>
               </div>
           </div>
   
     </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="attribution m-[5em]">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" id="company">Frontend Mentor</a>. 
+    Coded by <a href="#">Angelo Monterroyo</a>.
   </div>
   
 </div>
 </main>
 </body>
-<script> 
-  let Alexis = "Alexis";
-  Alexis = "loves";
-  let Angelo = "Angelo";
-
-  console.log(Alexis);
-
-</script>
 
 </html>
