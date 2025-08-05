@@ -1,6 +1,6 @@
-# Frontend Mentor - Blog Preview Card
+# Frontend Mentor - Recipe Page
 
-(./preview.jpg)
+!(./preview.jpg)
 
 ## Links
 
