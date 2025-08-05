@@ -335,8 +335,29 @@
   .border-\[hsl\(30\,10\%\,34\%\)\] {
     border-color: hsl(30,10%,34%);
   }
+  .border-\[hsl\(30\,18\%\,87\%\)\] {
+    border-color: hsl(30,18%,87%);
+  }
+  .bg-\[hsl\(329\,94\%\,88\%\)\] {
+    background-color: hsl(329,94%,88%);
+  }
+  .bg-\[hsl\(329\,100\%\,92\%\)\] {
+    background-color: hsl(329,100%,92%);
+  }
+  .bg-\[hsl\(329\,100\%\,94\%\)\] {
+    background-color: hsl(329,100%,94%);
+  }
+  .bg-\[hsl\(330\,100\%\,94\%\)\] {
+    background-color: hsl(330,100%,94%);
+  }
   .bg-\[hsl\(330\,100\%\,98\%\)\] {
     background-color: hsl(330,100%,98%);
+  }
+  .bg-\[hsl\(332\,51\%\,32\%\)\] {
+    background-color: hsl(332,51%,32%);
+  }
+  .bg-\[hsl\(332\,52\%\,80\%\)\] {
+    background-color: hsl(332,52%,80%);
   }
   .bg-white {
     background-color: var(--color-white);
